@@ -1,0 +1,57 @@
+{
+  "name": "NekoFlix",
+  "items": [
+    {
+      "name": "Películas",
+      "action": "Next",
+      "description": "Sección con las mejores películas.",
+      "items": [
+        {
+          "name": "Superman",
+          "action": "Play",
+          "url": "ENLACE_DIRECTO_DRIVE_PELICULA",
+          "image": "ENLACE_DIRECTO_IMGUR_POSTER"
+        }
+      ]
+    },
+    {
+      "name": "Serie",
+      "action": "Next",
+      "items": [
+        {
+          "name": "Invincible(español)",
+          "action": "Next",
+          "description": "Mark descubre la dura realidad del heroísmo mientras afronta la verdad sobre los poderes de su padre.",
+          "items": [
+            {
+              "name": "Episodio 1",
+              "action": "Play",
+              "url": "https://drive.google.com/file/d/18oLFKkjRR_YzUusRWTNqX4UUbJbT1ytv/view?usp=drivesdk",
+              "image": "https://i.imgur.com/8o0iOVD.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Animes",
+      "action": "Next",
+      "description": "Sección dedicada a las mejores series de anime.",
+      "items": [
+        {
+          "name": "Nombre del Anime",
+          "action": "Next",
+          "description": "Sinopsis o descripción del anime.",
+          "items": [
+            {
+              "name": "Episodio 1",
+              "action": "Play",
+              "url": "ENLACE_DIRECTO_DRIVE_EPISODIO",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
